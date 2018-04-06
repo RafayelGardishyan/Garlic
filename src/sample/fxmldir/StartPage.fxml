@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="665.0" prefWidth="340.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartPageController">
+   <children>
+      <AnchorPane layoutY="102.0" prefHeight="495.0" prefWidth="340.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <AnchorPane prefHeight="64.0" prefWidth="340.0" style="-fx-background-color: #F39C63;">
+               <children>
+                  <Label fx:id="welcome_message" layoutX="6.0" layoutY="-2.0" text="Welcome Username" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="score_message" layoutX="6.0" layoutY="33.0" text="Score: 0" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="level_message" layoutX="109.0" layoutY="33.0" text="Level: 0" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <VBox fx:id="course_pane" layoutY="65.0" prefHeight="429.0" prefWidth="340.0">
+               <children>
+                  <Label fx:id="no_course" prefHeight="39.0" prefWidth="244.0" text="No course information" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <Label layoutX="40.0" layoutY="-11.0" prefHeight="62.0" prefWidth="260.0" text="Garlic" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="95.0" />
+         </font>
+      </Label>
+      <Label layoutX="6.0" layoutY="630.0" text="Garlic v0.0.4 (Alfa)" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

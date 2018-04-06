@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="404.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterController">
+    <children>
+        <AnchorPane layoutY="91.0" prefHeight="313.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button fx:id="loginbutton" layoutX="36.0" layoutY="213.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="634.0" style="-fx-background-color: #F39C63;  -fx-border-radius: 5px;" text="Register" textFill="WHITE">
+                    <font>
+                        <Font name="Forte" size="25.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="username_f" layoutX="35.0" layoutY="29.0" prefHeight="70.0" prefWidth="292.0" promptText="Username" style="-fx-border-radius: 5px; -fx-border-color: silver; -fx-background-color: #fafafa; -fx-text-fill: #98999b;">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="pw_f" layoutX="35.0" layoutY="121.0" prefHeight="70.0" prefWidth="292.0" promptText="Password" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5px; -fx-text-fill: #98999b;">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </PasswordField>
+            <ChoiceBox fx:id="level_selector" layoutX="378.0" layoutY="121.0" prefHeight="70.0" prefWidth="292.0" style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: silver; -fx-text-fill: #98999b;" styleClass="choicebox" stylesheets="@register.css" />
+            <TextField fx:id="email_f" layoutX="378.0" layoutY="29.0" prefHeight="70.0" prefWidth="292.0" promptText="Email" style="-fx-border-radius: 5px; -fx-border-color: silver; -fx-background-color: #fafafa; -fx-text-fill: #98999b;">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+        <Label layoutX="277.0" layoutY="14.0" text="Garlic" textFill="WHITE">
+            <font>
+                <Font name="Forte" size="56.0" />
+            </font>
+        </Label>
+    </children>
+
+</AnchorPane>
